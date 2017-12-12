@@ -68,11 +68,14 @@ header h1 {
 	width: 100%;
 }
 header h1 span {
-	background-color: #fff;
+	/* background-color: rgba(255,255,255,.35); */
+	border-bottom: 3.5rem solid rgba(255,255,255,.35);
+	border-left: .66rem solid transparent;
 	color: #ff988e;
 	display: inline-block;
-	margin-left: .5rem;
-	padding: .2rem;
+	height: 0;
+	/* margin-left: .5rem;
+	padding: .2rem; */
 	text-align: left;
 	width: calc(100% - 20vw);
 }

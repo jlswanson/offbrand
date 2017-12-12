@@ -1,0 +1,78 @@
+/* css reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* offbrand custom styles */
+html {
+	height: 100%;
+}
+body {
+	background: rgba(255,255,107,0.8);
+	background: -moz-linear-gradient(-45deg, rgba(255,255,107,0.8) 0%, rgba(255,15,119,0.8) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,255,107,0.8)), color-stop(100%, rgba(255,15,119,0.8)));
+	background: -webkit-linear-gradient(-45deg, rgba(255,255,107,0.8) 0%, rgba(255,15,119,0.8) 100%);
+	background: -o-linear-gradient(-45deg, rgba(255,255,107,0.8) 0%, rgba(255,15,119,0.8) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(255,255,107,0.8) 0%, rgba(255,15,119,0.8) 100%);
+	background: linear-gradient(135deg, rgba(255,255,107,0.8) 0%, rgba(255,15,119,0.8) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff6b', endColorstr='#ff0f77', GradientType=1 );
+	font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+
+header h1 {
+	color: #fff;
+	font-size: 3rem;
+	font-style: italic;
+	font-weight: 200;
+	text-align: right;
+	width: 100%;
+}
+header h1 span {
+	background-color: #fff;
+	color: #ff988e;
+	display: inline-block;
+	margin-left: .5rem;
+	padding: .2rem;
+	text-align: left;
+	width: calc(100% - 20vw);
+}

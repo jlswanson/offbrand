@@ -79,3 +79,20 @@ header h1 span {
 	text-align: left;
 	width: calc(100% - 20vw);
 }
+
+section h2 {
+	color: #fff;
+}
+
+.sc-content {
+	margin-top: 1em;
+}
+
+/* layout */
+.w-3-4 {
+	width: 75%;
+}
+
+.offset-1-4 {
+	margin-left: 25%;
+}
